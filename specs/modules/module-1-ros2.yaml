@@ -1,0 +1,17 @@
+id: module-1-ros2
+title: "Module 1 — ROS 2: Robotic Nervous System"
+prerequisites:
+  - "Python 3.10+"
+  - "Basic AI/ML"
+  - "Linux familiarity"
+duration_hours: 10
+units:
+  - id: unit-1-1
+    title: "ROS 2 Overview"
+    objectives:
+      - "Explain Nodes, Topics, Services, Actions"
+  - id: unit-1-2
+    title: "rclpy Practical"
+    lab: "Write a ROS 2 publisher/subscriber controlling joints"
+tests:
+  - "Unit test to spin up node and verify topic messages"

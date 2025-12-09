@@ -1,0 +1,36 @@
+id: physical-ai-constitution
+title: "AI Systems in the Physical World — Embodied Intelligence"
+theme: "Physical AI & Humanoid Robotics"
+goal: "Students apply AI knowledge to control humanoid robots in simulated and real environments."
+quarter_scope: >
+  Students learn how AI interacts with the physical world — from robot control to autonomous humanoid behavior — using ROS 2, Gazebo/Unity, and NVIDIA Isaac.
+modules:
+  - id: module-1-ros2
+    title: "ROS 2 — Robotic Nervous System"
+    objectives:
+      - "Understand nodes, topics, services, and actions"
+      - "Bridge Python agents to ROS controllers using rclpy"
+      - "Model humanoids using URDF"
+    labs:
+      - "Publish/Subscribe joint control lab"
+  - id: module-2-digital-twin
+    title: "Gazebo & Unity — The Digital Twin"
+    objectives:
+      - "Simulate physics and sensors (LiDAR, IMU, Depth)"
+      - "Design interactive environments"
+  - id: module-3-isaac
+    title: "NVIDIA Isaac — AI Robot Brain"
+    objectives:
+      - "Use Isaac Sim for photorealistic simulation"
+      - "Use Isaac ROS VSLAM + Nav2"
+  - id: module-4-vla
+    title: "Vision-Language-Action"
+    objectives:
+      - "Integrate Whisper speech input"
+      - "Use LLM to generate ROS actions from natural language"
+capstone:
+  title: "Autonomous Humanoid"
+  description: "A humanoid receives voice commands, plans, navigates, identifies objects via CV, and manipulates them."
+authoring_rules:
+  - "Every unit must include objectives, prerequisites, lab tests, real-robot notes, and safety/ethics"
+  - "All content must be generated and validated through Spec-Kit Plus specs"
