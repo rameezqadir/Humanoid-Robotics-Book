@@ -72,66 +72,28 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Humanoid Robotics Book',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Book',
-          },
-          
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+  title: 'Humanoid Robotics Book',
+  items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'tutorialSidebar',
+      label: 'Book',
+      position: 'left',
+    },
+    {
+      href: 'https://github.com/rameezqadir/Humanoid-Robotics-Book',
+      label: 'GitHub',
+      position: 'right',
+    },
+  ],
+},
+
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
+        links: [],
+            
+          
+        
         copyright: `© ${new Date().getFullYear()} Humanoid Robotics Book — Hackathon Project`,
       },
       prism: {
