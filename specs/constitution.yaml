@@ -34,3 +34,18 @@ capstone:
 authoring_rules:
   - "Every unit must include objectives, prerequisites, lab tests, real-robot notes, and safety/ethics"
   - "All content must be generated and validated through Spec-Kit Plus specs"
+
+  project:
+  name: Humanoid Robotics Book
+  methodology: Spec-Kit Plus
+  generation: AI-spec driven
+
+rules:
+  - Each chapter must define objectives
+  - Labs must be simulator-first
+  - Safety & ethics required
+  - Real-robot transfer notes included
+
+validation:
+  - Human review
+  - Simulator testing
