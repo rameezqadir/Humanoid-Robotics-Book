@@ -1,12 +1,27 @@
+
 ---
-title: Digital Twin — Gazebo & Unity
+
+### 📘 `gazebo.md`
+
+```md
+---
+title: Digital Twin — Gazebo
 ---
 
 ## Simulation & Physics
 
-Simulate humanoids with gravity, collisions, and sensors.
+Gazebo enables physics-accurate simulation of humanoid robots.
 
-### Sensors
+## Simulated Components
+- Gravity & collisions
+- Joint dynamics
+- Sensor noise
+
+## Sensors
 - LiDAR
-- IMU
-- Depth Camera
+- Depth cameras
+- IMUs
+
+## Lab
+Spawn a humanoid model and test walking stability.
+

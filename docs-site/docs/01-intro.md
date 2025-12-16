@@ -4,17 +4,26 @@ slug: /
 ---
 
 # Physical AI & Humanoid Robotics  
-## An AI-Native Textbook
+## An AI-Native Textbook on Embodied Intelligence
 
-Welcome to the **Humanoid Robotics Book**.
+This book explores **Physical AI** — artificial intelligence systems that operate in the real world and obey physical laws.
 
-This book focuses on **Physical AI**, **Embodied Intelligence**, and **Humanoid Robots**.
+Unlike purely digital AI, **embodied intelligence** connects perception, reasoning, and action through a physical body.
 
-## What You Will Learn
-- ROS 2 as a robotic nervous system
-- Physics simulation with Gazebo & Unity
-- NVIDIA Isaac for perception & navigation
-- Vision-Language-Action systems
-- Autonomous humanoid robots
+## Course Goal
+Bridge the gap between the **digital brain** (AI models) and the **physical body** (humanoid robots).
+
+Students learn to:
+- Design humanoid robot systems
+- Simulate physical environments
+- Apply AI models to real robotic control
+- Build autonomous humanoid agents
+
+## Toolchain
+- **ROS 2** — robotic nervous system
+- **Gazebo & Unity** — digital twins
+- **NVIDIA Isaac** — perception & navigation
+- **Vision-Language-Action (VLA)** — cognition
+
 
 ➡️ Use the sidebar to navigate chapters.

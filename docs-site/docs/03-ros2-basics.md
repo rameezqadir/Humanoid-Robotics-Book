@@ -1,15 +1,28 @@
 ---
-title: ROS 2 — Robotic Nervous System
+title: ROS 2 — The Robotic Nervous System
 ---
 
-## ROS 2 Fundamentals
+## Overview
+ROS 2 provides communication, synchronization, and control for robotic systems.
 
-ROS 2 acts as the nervous system of humanoid robots.
+## Core Concepts
+- Nodes
+- Topics
+- Services
+- Actions
 
-### Topics
-- Nodes, Topics, Services
-- rclpy Python integration
-- Real-time robot control
+## Python Control with rclpy
+```python
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
 
-### Lab
-Control a simulated humanoid using ROS 2 publishers.
+class Brain(Node):
+    def __init__(self):
+        super().__init__('brain')
+        self.pub = self.create_publisher(String, 'command', 10)
+
+rclpy.init()
+node = Brain()
+rclpy.spin(node)
+
