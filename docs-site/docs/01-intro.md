@@ -1,6 +1,6 @@
 ---
 title: Physical AI & Humanoid Robotics
-slug: /
+
 ---
 
 # Physical AI & Humanoid Robotics  
